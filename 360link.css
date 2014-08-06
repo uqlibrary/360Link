@@ -1,0 +1,106 @@
+BODY {font-family: Arial,Helvetica,sans-serif; background: #F0F0EF;}
+
+DIV, P, SPAN, TD {font-family: Arial,Helvetica,sans-serif;}
+
+div.SS_ToolLabels, 
+div.SS_SearchToolsGroup a:link, 
+span.SS_ResultsNoteGroup,
+span.SS_ResultsCount, 
+span.SS_ResultsNote,  
+div.SS_SkipNavigationLinks a:link, 
+div.SS_LetterLinks a:link,
+table.SS_CitationTable,
+.cl,
+div.res,
+td.SS_Text, 
+.CitationValue,
+span.CitationValue,
+ {font:normal Arial, Helvetica, sans-serif; font-size:14px;}
+ 
+div.360Head {font-family: arial sans serif; font-weight:bold; font-size:18px;font-weight:bold;}
+
+.AnchorButton {font-size: 13px; padding-left: 10px; }
+
+#ArticleCL {width: 100px; border: 1px solid #003399; padding-top: 5px; height: 20px; } 
+
+#BookLinkTable {margin-left: 30px; width: 200px;}
+
+#BookLinkTable td, #JournalLinkTable td { padding: 5px; font-size: 14px}
+
+TABLE.CandyWrapper {padding: 0; font-size: 14px; width: 910px; margin: 0; }
+
+TABLE.CandyWrapper td {padding: 0px; }
+
+.Citation {padding: 10px 0}
+
+div#CitationResults {margin: -10px 0 0 0; padding: 0; width: 910px; }
+
+div.cl {text-decoration: none; font-size: 13px; padding: 0 20px;}
+
+#content table { }
+#content table td, #content table th {  }
+#content table th {	}
+#content table.tabledata_blue { }
+#content table { }
+#content caption {  }
+#content table td, #content table th { }
+#content table th {	}
+#content table tr th {}
+
+#ContentAvailableTable {margin-top: 10px; margin-left: 0; border: 2px solid #fff; }
+
+#ContentAvailableTable td { padding: 0 }
+
+.ContentNotAvailableTable {margin-bottom: -30px}
+ 
+.ContentHeading { display: none } 
+ 
+.crossRefImg {display: none}
+
+#crossRefLink {border: 1px solid #003399; padding: 5px 31px 3px 31px; font-size: 13px; line-height: 30px; } 
+
+#CrossRefTable {border: none; margin-left: 18px; width: 500px; }
+
+td .CustomLink { font-size: 13px; line-height: 2.0em; border: 1px solid #ccc;  } 
+td .CustomLinkGroup { font-size: 13px; line-height: 1.5em; text-indent:10px; border: 1px solid #ccc;} 
+td .CustomLinkGroupLabel {font: Arial, Helvetica, sans-serif; font-weight: normal; font-size:14px; line-height: 3.0em; padding: 6px; }
+
+#DatabaseCL {display: none; } 
+
+#DateCL {display: none }
+
+.doiNumber {display: none} 
+
+#header-image {margin: 20px 0 10px 0; }
+
+input {border: 1px solid #aaa; padding: 3px; font-size: 13px; }
+
+#JournalCL, #BookCL {width: 120px; border: 1px solid #003399; padding-top: 5px; height: 20px; }
+
+#JournalLinkTable {margin-left: 30px; width: 500px; border: none; }
+
+#MoreOptions {font-weight: bold; padding: 5px; margin: 30px; line-height: 3.0em;  }
+
+#RefinerLink0, #RefinerLink1, #RefinerLink2, #RefinerLink3 {display: none}
+
+div.res {font-weight: normal; text-decoration: none;}
+
+.SSALCitationStyleInfoLink {display: none}
+
+span.SS_ContentHeading { font: Arial, Helvetica, sans-serif; font-size:14px; color: #fff; font-weight: bold; }
+
+div.SS_NoResults { font-size: 14px; font-weight: normal; }
+
+span.SS_Refiner{	text-align: right;}
+
+div.SSRefinerBannerSubText {font-size: 14px; }
+
+span.SS_searchTitle {font: Arial, Helvetica, sans-serif; font-size:13px;}
+
+div.SS_Text { display: none }
+
+.txtSmaller {font-size: 14px}
+
+TABLE.WideNoBorder {		}
+
+.wrapper { background: transparent !important; border: none;}
