@@ -14,7 +14,7 @@ function validateForm() {
 
 document.onload = function(){ 
 
-document.getElementByClassName("report-problem-form hide").innerHTML = "<div class='report-problem-form hide'>
+document.getElementsByClassName("report-problem-form hide").innerHTML = "<div class='report-problem-form hide'>
 					<p>
 						Send report and we'll investigate the problem. Enter your name and email only if you wish to be contacted.
 					</p>
