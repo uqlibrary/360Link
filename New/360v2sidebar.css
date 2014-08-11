@@ -1,3 +1,8 @@
 .sidebar {
 	background-color: #f0f0f0 !important;
 }
+.email-form, .export-form, .email-confirmation, .bad-link-logging-confirmation, .report-problem-form {
+background: #f0f0f0 !important;
+width: 320px;
+padding: 10px;
+}
