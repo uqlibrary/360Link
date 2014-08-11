@@ -4,8 +4,6 @@
 Styles and structure for 360 Link service.
 
 
-
-
 Folder Hierarchy:
 
 Old - The original codebase as of August 1, 2014.
