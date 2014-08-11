@@ -19,4 +19,4 @@ jQuery(function($){
 	showReportProblemConfirmation();
 }
 });
-})
+});
