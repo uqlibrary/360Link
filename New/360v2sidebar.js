@@ -1,7 +1,7 @@
 document.write('<link rel="stylesheet" type="text/css" href="https://www.library.uq.edu.au/360Link/New/360v2sidebar.css">');
 
 function validate() {
-	var re = [a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?;
+	var re = /\S+@\S+\.\S+/;
 	var emailToTest = document.getElementById("reportProblemEmail").value;
 	var emailIsValid = re.test(emailToTest);
 	var nameIsValid = (document.getElementById("reportProblemName").value != "");
