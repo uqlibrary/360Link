@@ -1,8 +1,13 @@
 document.write('<link rel="stylesheet" type="text/css" href="https://www.library.uq.edu.au/360Link/New/360v2sidebar.css">');
 
 function validate() {
-	
-	document.getElementsByClassName("btn btn-inverse report-problem-send")[0].disabled = false;
+	var re = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+	var emailToTest = document.getElementById("reportProblemEmail").value;
+	var emailIsValid = re.test(emailToTest);
+	var nameIsValid = document.getElementById("reportProblemName").value.length > 0;
+	if (emailIsValid && nameIsValid) {
+		document.getElementsByClassName("btn btn-inverse report-problem-send")[0].disabled = false;
+	}
 }
 
 
