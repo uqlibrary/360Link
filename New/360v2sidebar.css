@@ -6,3 +6,7 @@ background: #f0f0f0 !important;
 width: 320px;
 padding: 10px;
 }
+img {
+	width: 300px !important;
+	margin: -26px 0 -20px -60px !important;
+}
