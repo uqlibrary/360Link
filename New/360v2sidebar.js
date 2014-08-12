@@ -7,6 +7,8 @@ function validate() {
 	var nameIsValid = document.getElementById("reportProblemName").value.length > 0;
 	if (emailIsValid && nameIsValid) {
 		document.getElementsByClassName("btn btn-inverse report-problem-send")[0].disabled = false;
+	} else {
+		document.getElementsByClassName("btn btn-inverse report-problem-send")[0].disabled = true;
 	}
 }
 
