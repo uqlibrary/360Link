@@ -1,0 +1,41 @@
+          <!-- footer -->
+          <hr>
+          <div class="row text-center">
+<div class="btn-group">
+<a href="mailto:eresources@library.uq.edu.au?subject=UQ summon 360 link helper error report&body=Enter a description of the problem.%0D%0A%0D%0A-------------%0D%0APlease do not delete this URL:%0D%0A [sub]" onclick="this.href = this.href.replace('[sub]',encodeURIComponent(window.location.href))" class="btn btn-default btn-large"><i class="fa fa-exclamation-circle"></i><br>
+Report a Problem </a>           
+<a href="https://www.library.uq.edu.au/database/fulltext_help.html" class="btn btn-default btn-large"><i class="fa fa-question-circle"></i><br>
+             Get Help</a>
+</div>
+            <br>
+            <br>
+          </div>
+          <script language="javascript">
+    //============================================
+  // Tests the parent opener object to see
+  // if the resource is a child window or
+  // the parents window.
+  // If PARENT: Insert Back button
+  // IF CHILD: Insert Close button
+  //============================================
+    if (!opener) {
+       document.writeln('<p align="center" class="uqlheading"><a href="javascript:history.back()" class=uqlnavigationlink><small>Go Back</small></a></p>');
+    } else {
+       document.writeln('<p align="center" class="uqlheading"><a href="javascript:self.close();" class=uqlnavigationlink><small>Close this window</small></a></p>');
+    }
+
+document.getElementsByClassName("WideNoBorder")[0].deleteRow(1);
+document.getElementsByClassName("WideNoBorder")[0].deleteRow(2);
+document.getElementsByClassName("cl")[0].innerHTML = document.getElementsByClassName("cl")[0].innerHTML.substring(3);
+// document.getElementsByClassName('ResultsRow')[0].width = "20%";
+          </script>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- end footer -->

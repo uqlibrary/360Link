@@ -1,0 +1,14 @@
+.sidebar {
+    background-color: #f0f0f0 !important;
+}
+.email-form, .export-form, .email-confirmation, .bad-link-logging-confirmation, .report-problem-form {
+    background: #f0f0f0 !important;
+    width: 320px;
+    padding: 10px;
+}
+img {
+    content: url("https://www.library.uq.edu.au/360Link/Testing/360/Library.png");
+    max-width: none !important;
+    width: 300px !important;
+    margin: -10px 0 -20px -60px !important;
+}
