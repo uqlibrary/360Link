@@ -1,4 +1,5 @@
 document.write('<link rel="stylesheet" type="text/css" href="https://www.library.uq.edu.au/360Link/New/360v2sidebar.css">');
+document.write('<link rel="shortcut icon" href="http://assets.summon.serialssolutions.com/4be462afb32d95e23c3a5dec">');
 
 function validate() {
     var re = /\S+@\S+\.\S+/;
