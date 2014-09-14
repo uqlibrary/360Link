@@ -26,3 +26,23 @@ if (document.getElementsByClassName("custom-links-header").length != 0) {
 		document.getElementsByClassName("custom-links-header")[0].innerHTML = "Need help finding this?&nbsp;<span class='custom-links-open hide caret-plain' style='display: none;'><i class='icon-caret-down'></i></span><span class='custom-links-close caret-plain' style='display: inline;'><i class='icon-caret-up'></i></span>";
 	}
 }
+// document.getElementById('link-not-working').remove();
+// document.getElementById('go-back').outerHTML = "<a href id=​'go-back'>​Additional Options​</a>​<br><a href='' id='link-not-working-updated'>Report a problem</a>";
+
+// jQuery(function($){
+//     $('#link-not-working-updated').on('click', function(event) {
+//         event.preventDefault(); 
+//         // $('.custom-links, .locale, .additional-options, .actions, .email-form, .export-form').hide();
+//         if ($(".report-problem-form").length) {
+//             var link = $("#link-not-working").offset();
+//             $("#reportProblemName").val("");
+//             $("#reportProblemEmail").val("");
+//             $("#reportProblemMessage").val("");
+//             $(".report-problem-form").show();
+//             $(".report-problem-form").offset({top:link.top+20, left:link.left-10});
+//         } else {
+//             reportBadLink("Link Not Working");
+//             showReportProblemConfirmation();
+//         }
+//     });
+// });
