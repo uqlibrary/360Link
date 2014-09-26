@@ -20,7 +20,8 @@ document.getElementsByTagName("img")[0].src = "https://www.library.uq.edu.au/360
 if (document.getElementsByClassName("custom-links-header").length != 0) {
 	var requestDocDelURL = document.getElementsByClassName("custom-link-group")[0].getElementsByTagName("a")[0].href;
 	var nameOfItem = requestDocDelURL.match(/=?publ0=([a-zA-Z+]*)/i);
-	document.getElementsByClassName("custom-link-group")[0].innerHTML = "<a target='_blank' href='https://app.library.uq.edu.au/#/journals?C=" + nameOfItem[1] + "&S=AC_T_B'>Check if we have this item online</a><br><a target='_blank' href='https://library.uq.edu.au/search~S7/t?search=" + nameOfItem[1] + "'>Check if we have this item in print</a><br> <a target='_blank' href='" + requestDocDelURL + "'>Request the item via Document Delivery</a><br>";
+    var nameOfItemNoSpaces = nameOfItem[1].split('+').join(' ');
+	document.getElementsByClassName("custom-link-group")[0].innerHTML = "<a target='_blank' href='https://app.library.uq.edu.au/#/journals?C=" + nameOfItemNoSpaces + "&S=AC_T_B'>Check if we have this item online</a><br><a target='_blank' href='https://library.uq.edu.au/search~S7/t?search=" + nameOfItem[1] + "'>Check if we have this item in print</a><br> <a target='_blank' href='" + requestDocDelURL + "'>Request the item via Document Delivery</a><br>";
 	var stillNeedHelpText = document.getElementsByClassName("custom-links-header")[0].innerHTML;
 	if (stillNeedHelpText.indexOf("Still need help?") == 9) {
 		document.getElementsByClassName("custom-links-header")[0].innerHTML = "Need help finding this?&nbsp;<span class='custom-links-open hide caret-plain' style='display: none;'><i class='icon-caret-down'></i></span><span class='custom-links-close caret-plain' style='display: inline;'><i class='icon-caret-up'></i></span>";
