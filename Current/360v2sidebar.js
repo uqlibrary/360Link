@@ -20,7 +20,7 @@ document.getElementsByTagName("img")[0].src = "https://www.library.uq.edu.au/360
 if (document.getElementsByClassName("custom-links-header").length != 0) {
 	var requestDocDelURL = document.getElementsByClassName("custom-link-group")[0].getElementsByTagName("a")[0].href;
 	var nameOfItem = requestDocDelURL.match(/=?publ0=([a-zA-Z+]*)/i);
-    var nameOfItemNoSpaces = nameOfItem[1].split('+').join(' ');
+    var nameOfItemNoSpaces = nameOfItem[1].split('+').join('%20');
 	document.getElementsByClassName("custom-link-group")[0].innerHTML = "<a target='_blank' href='https://app.library.uq.edu.au/#/journals?C=" + nameOfItemNoSpaces + "&S=AC_T_B'>Check if we have this item online</a><br><a target='_blank' href='https://library.uq.edu.au/search~S7/t?search=" + nameOfItem[1] + "'>Check if we have this item in print</a><br> <a target='_blank' href='" + requestDocDelURL + "'>Request the item via Document Delivery</a><br>";
 	var stillNeedHelpText = document.getElementsByClassName("custom-links-header")[0].innerHTML;
 	if (stillNeedHelpText.indexOf("Still need help?") == 9) {
