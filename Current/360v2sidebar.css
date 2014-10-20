@@ -12,3 +12,6 @@ img {
     width: 300px !important;
     margin: -10px 0 -20px -60px !important;
 }
+.accessibility-hidden {
+	text-indent: -10000px !important;
+}
